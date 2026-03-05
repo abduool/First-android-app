@@ -49,7 +49,7 @@ fun BusinessCard() {
 
         // 🔥 Profile Image
         Image(
-            painter = painterResource(id = R.drawable.netbusiness),
+            painter = painterResource(id = R.drawable.abdurrahman),
             contentDescription = "Profile Image",
             modifier = Modifier
                 .size(140.dp)
@@ -66,7 +66,7 @@ fun BusinessCard() {
 
         // Name
         Text(
-            text = "Ahmad Mahdeey ",
+            text = "Abdurrahman Muhammad Bello ",
             fontSize = 34.sp,
             fontWeight = FontWeight.Bold
         )
@@ -81,9 +81,9 @@ fun BusinessCard() {
         Spacer(modifier = Modifier.height(40.dp))
 
         // Contact Info
-        ContactRow(info = "📞 +234 800 000 0000")
-        ContactRow(info = "📧 ahmad@example.com")
-        ContactRow(info = "🌐 www.ahmad_networks.dev")
+        ContactRow(info = "📞 +234 703 568 3912")
+        ContactRow(info = "📧 muhammadbello002019@gmail.com")
+        ContactRow(info = "🌐 www.abdurrahman_networks.dev")
     }
 }
 
