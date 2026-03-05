@@ -73,7 +73,7 @@ fun BusinessCard() {
 
         // Title
         Text(
-            text = "Network technician 🌐",
+            text = " Ambelloconnect 🌐",
             fontSize = 18.sp,
             color = MaterialTheme.colorScheme.primary
         )
